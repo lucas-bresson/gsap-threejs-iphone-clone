@@ -1,33 +1,33 @@
-import hero from "/assets/images/hero.jpeg";
+import hero from '/assets/images/hero.jpeg';
 
 export const heroImg = hero;
 
-import hmv from "/assets/videos/hero.mp4";
-import smallmv from "/assets/videos/smallHero.mp4";
-import highlightFirst from "/assets/videos/highlight-first.mp4";
-import highlightSecond from "/assets/videos/hightlight-second.mp4";
-import highlightThird from "/assets/videos/hightlight-third.mp4";
-import highlightFourth from "/assets/videos/hightlight-fourth.mp4";
-import exploremv from "/assets/videos/explore.mp4";
-import framemv from "/assets/videos/frame.mp4";
+import exploremv from '/assets/videos/explore.mp4';
+import framemv from '/assets/videos/frame.mp4';
+import hmv from '/assets/videos/hero.mp4';
+import highlightFirst from '/assets/videos/highlight-first.mp4';
+import highlightFourth from '/assets/videos/hightlight-fourth.mp4';
+import highlightSecond from '/assets/videos/hightlight-second.mp4';
+import highlightThird from '/assets/videos/hightlight-third.mp4';
+import smallmv from '/assets/videos/smallHero.mp4';
 
-import apple from "/assets/images/apple.svg";
-import search from "/assets/images/search.svg";
-import bag from "/assets/images/bag.svg";
-import watch from "/assets/images/watch.svg";
-import right from "/assets/images/right.svg";
-import replay from "/assets/images/replay.svg";
-import play from "/assets/images/play.svg";
-import pause from "/assets/images/pause.svg";
+import apple from '/assets/images/apple.svg';
+import bag from '/assets/images/bag.svg';
+import pause from '/assets/images/pause.svg';
+import play from '/assets/images/play.svg';
+import replay from '/assets/images/replay.svg';
+import right from '/assets/images/right.svg';
+import search from '/assets/images/search.svg';
+import watch from '/assets/images/watch.svg';
 
-import yellow from "/assets/images/yellow.jpg";
-import blue from "/assets/images/blue.jpg";
-import white from "/assets/images/white.jpg";
-import black from "/assets/images/black.jpg";
-import explore1 from "/assets/images/explore1.jpg";
-import explore2 from "/assets/images/explore2.jpg";
-import chip from "/assets/images/chip.jpeg";
-import frame from "/assets/images/frame.png";
+import black from '/assets/images/black.jpg';
+import blue from '/assets/images/blue.jpg';
+import chip from '/assets/images/chip.jpeg';
+import explore1 from '/assets/images/explore1.jpg';
+import explore2 from '/assets/images/explore2.jpg';
+import frame from '/assets/images/frame.png';
+import white from '/assets/images/white.jpg';
+import yellow from '/assets/images/yellow.jpg';
 
 export const heroVideo = hmv;
 export const smallHeroVideo = smallmv;
