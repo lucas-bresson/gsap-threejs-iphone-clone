@@ -127,11 +127,15 @@ const VideoCarousel = () => {
   const handleProcess = (type: string, i: number = 0) => {
     switch (type) {
       case 'video-end':
-        setVideo(prevVideo => ({
-          ...prevVideo,
-          isEnd: true,
-          videoId: i + 1,
-        }));
+        setTimeout(
+          () =>
+            setVideo(prevVideo => ({
+              ...prevVideo,
+              isEnd: true,
+              videoId: i + 1,
+            })),
+          300
+        );
         break;
 
       case 'video-last':

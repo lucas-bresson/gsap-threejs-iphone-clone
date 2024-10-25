@@ -27,7 +27,11 @@ const ModelView = ({
   };
 }) => {
   return (
-    <View index={index} id={gsapType} className={`w-full h-full absolute ${index === 2 ? 'right-[-100%]' : ''}`}>
+    <View
+      index={index}
+      id={gsapType}
+      className={`w-full h-full absolute cursor-grab active:cursor-grabbing ${index === 2 ? 'right-[-100%]' : ''}`}
+    >
       {/* Ambient Light */}
       <ambientLight intensity={0.3} />
 

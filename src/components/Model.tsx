@@ -101,7 +101,7 @@ const Model = () => {
                 {models.map((item, i) => (
                   <li
                     key={i}
-                    className="w-6 h-6 rounded-full mx-2 cursor-pointer"
+                    className="w-6 h-6 rounded-full mx-2 cursor-pointer hover:scale-105 transition-transform"
                     style={{ backgroundColor: item.color[0] }}
                     onClick={() => setModel(item)}
                   />
