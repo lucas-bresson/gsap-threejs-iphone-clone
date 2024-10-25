@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 import { models, sizes } from '../constants';
 import { yellowImg } from '../utils';
-import { animateWithGsapTimeline } from '../utils/animations';
+import { animateWithGsap, animateWithGsapTimeline } from '../utils/animations';
 import ModelView from './ModelView';
 
 const Model = () => {
@@ -47,7 +47,7 @@ const Model = () => {
   }, [size]);
 
   useGSAP(() => {
-    gsap.to('#heading', { y: 0, opacity: 1 });
+    animateWithGsap('#heading', { y: 0, opacity: 1 });
   }, []);
 
   return (
